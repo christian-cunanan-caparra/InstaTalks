@@ -26,7 +26,7 @@ class _ChatState extends State<Chat> {
     _searchController.dispose();
     super.dispose();
   }
-  //
+
 
   void _filterParticipants() {
     final query = _searchController.text.toLowerCase();
