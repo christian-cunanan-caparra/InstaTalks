@@ -31,7 +31,7 @@ class JhunielChatPage extends StatelessWidget {
                       _buildReceivedMessage("San po pwede bumili na dd4 na ram", "images/Jhuniel.jpg", messageMaxWidth),
                       _buildSentMessage("Itech", messageMaxWidth),
                       _buildSentMessage("Cyberzone", messageMaxWidth),
-                      _buildReceivedMessage("Sige po sir Thankyou po", "images/ChristianCaparra.jpg", messageMaxWidth),
+                      _buildReceivedMessage("Sige po sir Thankyou po", "images/Jhuniel.jpg", messageMaxWidth),
                     ],
                   ),
                 ),
@@ -52,7 +52,7 @@ class JhunielChatPage extends StatelessWidget {
           ClipRRect(
             borderRadius: BorderRadius.circular(50),
             child: Image.asset(
-              'images/ChristianCaparra.jpg',
+              'images/Jhuniel.jpg',
               width: 80,
               height: 80,
               fit: BoxFit.cover,
@@ -60,7 +60,7 @@ class JhunielChatPage extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           const Text(
-            'Christian Caparra',
+            'Jhuniel Galang',
             style: TextStyle(fontSize: 18, fontWeight: FontWeight.w600),
           ),
           const Text(
