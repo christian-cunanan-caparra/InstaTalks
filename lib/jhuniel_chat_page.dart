@@ -28,7 +28,7 @@ class JhunielChatPage extends StatelessWidget {
                     children: [
                       _buildReceivedMessage("Goodmorning sir ask lang po", "images/Jhuniel.jpg", messageMaxWidth),
                       _buildSentMessage("ano yun?", messageMaxWidth),
-                      _buildReceivedMessage("San po pwede bumili na dd4 na ram", "images/ChristianCaparra.jpg", messageMaxWidth),
+                      _buildReceivedMessage("San po pwede bumili na dd4 na ram", "images/Jhuniel.jpg", messageMaxWidth),
                       _buildSentMessage("Itech", messageMaxWidth),
                       _buildSentMessage("Cyberzone", messageMaxWidth),
                       _buildReceivedMessage("Sige po sir Thankyou po", "images/ChristianCaparra.jpg", messageMaxWidth),
